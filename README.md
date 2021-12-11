@@ -7,7 +7,7 @@
 
 ##
 
-<div style="display: inline_block"><br/>
+<div style="display: inline_block" align="center"><br/>
   <img align="center" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg"/>
   <img align="center" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg"/>
   <img align="center" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"/>
@@ -19,7 +19,7 @@
 
 ##
 
-<div>
+<div align="center">
   <img height="160em" src="https://github-readme-stats.vercel.app/api?username=niedsonf&show_icons=true&theme=highcontrast" />
   <img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=niedsonf&layout=compact&theme=highcontrast" />
 </div>
