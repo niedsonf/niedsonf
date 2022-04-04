@@ -3,13 +3,12 @@
 - Mechatronics technician 💻
 - Undergraduate in Science and Technology 📚
 - Currently learning Flutter 📱
-- Looking for experiences in mobile development 🔎
 
 ##
 
 <div style="display: inline_block" align="center"><br/>
-  <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg"/>
   <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg"/>
+  <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg"/>
   <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"/>
   <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg"/>
   <img align="center" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"/>
