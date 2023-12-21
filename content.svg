@@ -1,18 +1,21 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg">
-    <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700display=swap');
-            
-            * {
-                font-family: 'Fira Code', monospace;
-            }
-            .wrapper {
-                width: 100%;
-                height: 100%;
-            }
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 620 720" width="620" height="720">
+    <foreignObject width="100%" height="100%" >
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                @import
+                url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700display=swap');
 
-            .border-wrapper {
+                * {
+                font-family: 'Fira Code', monospace;
+                }
+
+                .wrapper {
+                width: 600px;
+                height: 100%;
+                }
+
+                .border-wrapper {
                 width: 100%;
                 height: 100%;
                 display: flex;
@@ -24,68 +27,68 @@
                 animation: animate-gradient 2s infinite ease-out;
                 padding: 0.5rem;
                 border-radius: 4px;
-            }
+                }
 
-            .content {
+                .content {
                 width: 100%;
                 height: 100%;
                 background: #22272e;
                 border-radius: 4px;
                 padding: 1rem;
-            }
+                }
 
-            .section-title {
+                .section-title {
                 font-size: 20px;
                 font-weight: 400;
                 color: #E1E1E6;
-            }
+                }
 
-            .text {
+                .text {
                 font-size: 16px;
                 font-weight: 400;
                 color: #00b37e;
-            }
+                }
 
-            .section-title::before {
+                .section-title::before {
                 content: '';
                 width: 100%;
                 height: 100%;
                 background-color: red;
-            }
+                }
 
-            .skills {
+                .skills {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
                 padding: 0.5rem;
                 row-gap: 32px;
-            }
+                }
 
-            .hexagon-grid {
+                .hexagon-grid {
                 display: grid;
                 width: 50%;
                 grid-template-areas:
-                    "a . b . e"
-                    ". c . d .";
-            }
+                "a . b . e"
+                ". c . d .";
+                }
 
-            .hexagon-grid-reverse {
+                .hexagon-grid-reverse {
                 display: grid;
                 width: 50%;
                 grid-template-areas:
-                    ". c . d ."
-                    "a . b . e";
-            }
+                ". c . d ."
+                "a . b . e";
+                }
 
-            .hexagon-grid:has(.hexagon:hover) .hexagon:not(:hover){
+                .hexagon-grid:has(.hexagon:hover) .hexagon:not(:hover){
                 opacity: 0.7;
-            }
+                }
 
-            .hexagon-grid-reverse:has(.hexagon:hover) .hexagon:not(:hover){
+                .hexagon-grid-reverse:has(.hexagon:hover) .hexagon:not(:hover){
                 opacity: 0.7;
-            }
+                }
 
-            .hexagon {
+                .hexagon {
                 width: 60px;
                 height: 60px;
                 display: grid;
@@ -98,114 +101,115 @@
                 background-size: 200% 200%;
                 animation: animate-gradient 2s infinite ease-out;
                 transition: all 200ms;
-            }
+                }
 
-            .hexagon:hover {
+                .hexagon:hover {
                 transform: scale(1.05);
-            }
+                }
 
-            .divider {
+                .divider {
                 width: 100%;
                 height: 2px;
                 background-color: #015f43;
                 border-radius: 8px;
-            }
+                }
 
-            @keyframes animate-gradient {
+                @keyframes animate-gradient {
                 0% {background-position: 0% 0%;}
                 50% {background-position: 100% 100%;}
                 100% {background-position: 0% 0%;}
-            }
-        </style>
-        <div class="wrapper">
-            <div class="border-wrapper">
-                <div class="content">
-                    <div>
-                        <a href="https://git.io/typing-svg">
-                            <image
-                                src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&#38;size=24&#38;pause=1000&#38;color=E1E1E6&#38;random=false&#38;width=435&#38;lines=Hey%2C+I'm+Niedson;Front-end+Developer;B.Sc.+in+Science+n+Technology;Mechatronics+Technician"
-                                alt="Typing SVG" />
-                        </a>
-                        <span class="text">Brazil, Natal/RN</span>
+                }
+            </style>
+            <div class="wrapper">
+                <div class="border-wrapper">
+                    <div class="content">
+                        <div>
+                            <object
+                                data="https://readme-typing-svg.herokuapp.com?font=Fira+Code&#38;size=24&#38;pause=1000&#38;color=E1E1E6&#38;random=false&#38;width=435&#38;lines=Hey%2C+I'm+Niedson;Front-end+Developer;B.Sc.+in+Science+n+Technology;Mechatronics+Technician"
+                                alt="Typing SVG" type="image/svg+xml" />
+                            <span class="text">Brazil, Natal/RN</span>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="skills">
+                            <div>
+                                <h1 class="section-title">Front-end Tools</h1>
+                                <div class="hexagon-grid">
+                                    <div class="hexagon top-hexagon" style="grid-area: a;">
+                                        <image width="40" height="40"
+                                            x="0" y="0"
+                                            preserveAspectRatio="none"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xlink:href="assets/react.svg" />
+                                    </div>
+                                    <div class="hexagon top-hexagon" style="grid-area: b;">
+                                        <image width="32" style="margin-left: -8px;"
+                                            xlink:href="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
+                                    </div>
+                                    <div class="hexagon"
+                                        style="grid-area: c; margin: -30px -12px 0 -12px;">
+                                        <image width="40"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" />
+                                    </div>
+                                    <div class="hexagon"
+                                        style="grid-area: d; margin: -30px 0 0 -12px;">
+                                        <image width="40"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h1 class="section-title">Back-end Tools</h1>
+                                <div class="hexagon-grid">
+                                    <div class="hexagon top-hexagon" style="grid-area: a;">
+                                        <image width="40"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
+                                    </div>
+                                    <div class="hexagon top-hexagon" style="grid-area: b;">
+                                        <image width="32"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+                                    </div>
+                                    <div class="hexagon"
+                                        style="grid-area: c; margin: -30px -12px 0 -12px;">
+                                        <image width="40"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-original.svg" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="hexagon-grid-reverse">
+                                    <div class="hexagon top-hexagon"
+                                        style="grid-area: a;  margin: -30px -12px 0 0;">
+                                        <image width="32"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
+                                    </div>
+                                    <div class="hexagon top-hexagon"
+                                        style="grid-area: b; margin: -30px -12px 0 -12px;">
+                                        <image width="40"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
+                                    </div>
+                                    <div class="hexagon" style="grid-area: c;">
+                                        <image width="32"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
+                                    </div>
+                                    <div class="hexagon" style="grid-area: d;">
+                                        <image width="32" style="margin-left: -2px;"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" />
+                                    </div>
+                                    <div class="hexagon"
+                                        style="grid-area: e; margin: -30px -12px 0 -12px;">
+                                        <image width="32"
+                                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain.svg" />
+                                    </div>
+                                </div>
+                                <h1 class="section-title">Languages</h1>
+                            </div>
+                        </div>
+                        <div class="divider"></div>
+                        <object height="160em" type="image/svg+xml"
+                            data="https://github-readme-stats.vercel.app/api/top-langs/?username=niedsonf&#38;layout=compact&#38;theme=merko" />
                     </div>
-                    <div class="divider"></div>
-                    <div class="skills">
-                        <div>
-                            <h1 class="section-title">Front-end Tools</h1>
-                            <div class="hexagon-grid">
-                                <div class="hexagon top-hexagon" style="grid-area: a;">
-                                    <image width="40" 
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
-                                </div>
-                                <div class="hexagon top-hexagon" style="grid-area: b;">
-                                    <image width="32" style="margin-left: -8px;"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
-                                </div>
-                                <div class="hexagon"
-                                    style="grid-area: c; margin: -30px -12px 0 -12px;">
-                                    <image width="40"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" />
-                                </div>
-                                <div class="hexagon"
-                                    style="grid-area: d; margin: -30px 0 0 -12px;">
-                                    <image width="40"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <h1 class="section-title">Back-end Tools</h1>
-                            <div class="hexagon-grid">
-                                <div class="hexagon top-hexagon" style="grid-area: a;">
-                                    <image width="40"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" />
-                                </div>
-                                <div class="hexagon top-hexagon" style="grid-area: b;">
-                                    <image width="32"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
-                                </div>
-                                <div class="hexagon"
-                                    style="grid-area: c; margin: -30px -12px 0 -12px;">
-                                    <image width="40"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sequelize/sequelize-original.svg" />
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="hexagon-grid-reverse">
-                                <div class="hexagon top-hexagon"
-                                    style="grid-area: a;  margin: -30px -12px 0 0;">
-                                    <image width="32"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" />
-                                </div>
-                                <div class="hexagon top-hexagon"
-                                    style="grid-area: b; margin: -30px -12px 0 -12px;">
-                                    <image width="40"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
-                                </div>
-                                <div class="hexagon" style="grid-area: c;">
-                                    <image width="32"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" />
-                                </div>
-                                <div class="hexagon" style="grid-area: d;">
-                                    <image width="32" style="margin-left: -2px;"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" />
-                                </div>
-                                <div class="hexagon"
-                                    style="grid-area: e; margin: -30px -12px 0 -12px;">
-                                    <image width="32"
-                                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-plain.svg" />
-                                </div>
-                            </div>
-                            <h1 class="section-title">Languages</h1>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                    <image height="160em"
-                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=niedsonf&#38;layout=compact&#38;theme=merko" />
                 </div>
             </div>
         </div>
-    </div>
     </foreignObject>
 </svg>
