@@ -1,1 +1,3 @@
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00B37E&vCenter=true&random=false&width=435&height=30&lines=Hi%2C+I'm+Niedson;Front-end+Developer;B.Sc.+in+Science+n+Technology;Mechatronics+Technician)](https://git.io/typing-svg)
 <image src="content.svg">
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=niedsonf&show_icons=true&theme=dark)
